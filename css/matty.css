@@ -5,13 +5,13 @@
     background-color: rgba(0,0,0,.7);
     margin-left: 10%;
     }
-    
+
     .matty_container:after {
     content: "";
     display: block;
     clear: both
 }
-    
+
     .matty_container_header {
         text-align: center;
         font-family: diplomata;
@@ -19,13 +19,18 @@
         padding-top: 15px;
         padding-bottom: 25px;
     }
-    
+
+    .matty_info_header{
+      text-align: center;
+      font-family: diplomata;
+    }
     .matty_info_column {
         width: 50%;
         float: left;
         color: #ff9000;
-    
-    }
-    
+        padding: 3%;
+        }
+
+
 
 /*End of Matty Challenge CSS*/
