@@ -1,0 +1,246 @@
+/*Colors
+BBQ Orange #ff9000
+rgb(255, 144, 0)
+Body Background Lt Gray #494949
+Header background color #000
+header & Footer text color #bfbfbf
+
+/*special google fonts Diplomata*/
+
+
+/*body css*/
+body {
+font-family: "Times New Roman", Times, serif;
+background-image: url("../images/diamond_plate.resized.png");
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+
+/*Start of header css*/
+.header_box{
+background-color: #000;
+height: 150px;
+Color: #bfbfbf;
+border: 6px outset #000;
+}
+
+
+.header_title {
+    margin-top: 1.5%;
+    font-size: 40px;
+    font-family: diplomata, sans-serif;
+}    
+
+.logo {
+ margin-top: -5px;
+}
+
+.bbq {
+    font-size: 60px;
+    color: #ff9000;
+}
+
+.header_hours_box {
+    font-size: 20px;
+    margin-left: -30px;
+    color:#bfbfbf;
+    margin-bottom:-0px;
+    line-height:1;
+    margin-top:4px;
+   }
+   
+.header_address_box {
+    font-size: 20px;
+    margin-left: -70px;
+    margin-top:23px;
+    color: #bfbfbf;
+    font-weight: bold;
+}
+.header_phone {
+    font-size: 20px;
+    margin-left: -20px;
+    margin-top: -25px;
+    color: #bfbfbf;
+    font-weight: bold;
+}
+/*End of Header CSS*/
+
+/*Start of Nav Buttons*/
+
+.button a{
+    color: #000 !important;
+    border: 5px outset;
+    margin: 20px;
+}
+
+.btn {
+    background-color: #ff9000;
+    font-family: Diplomata;
+    margin-top: 10px;
+    margin-bottom: 35px;
+}
+/*End of Nav Buttons*/
+
+    
+    
+    /*Start of Carousel and info css*/
+    
+.container_carousel_info {
+    padding-top: 15px;
+    float: left;
+}
+    
+/*carousel*/
+
+.carousel-inner img {
+      width: 450px;
+      height: 450px;
+      border-radius: 15px;
+}
+
+.carousel_box {
+    width: 450px;
+    margin-left: 14%;
+    float: left;
+}
+
+.carousel-control-prev{
+    padding-left: 20px;
+}
+.carousel-control-next {
+    left: 33%;
+}
+
+
+/*Family Photo and info*/
+.family_img {
+    border-radius: 15px;
+    height: 250px;
+    width: 300px;
+    float: right;
+    padding:10px;
+    }
+
+.img_info_box {
+    margin-right: 5%;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    height: 450px;
+    width: 600px;
+    background-color: rgba(0, 0, 0, .6);
+    float: right;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+    text-indent: 50px;
+    color: #fa9000;
+}
+    /*End of carousel and info css*/
+    
+    /*Start of Review Section CSS*/
+    .review_row {
+        height: 330px;
+        width: 100%;
+        margin-top: 50px;
+    }
+    .review_box {
+        width: 28%;
+        float:left;
+        border: 3px solid #000;
+        margin: 0px 30px;
+        clear: right;
+    }
+    hr {
+        background:#ff9000;
+        height: 1px;
+    }
+   
+    /*End of Review Section CSS*/
+
+/* Start Footer CSS*/
+ 
+ footer {
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+  height: 120px;
+  background-color: #000 !important;
+  border: 5px outset #000;
+}
+
+.footer-column {
+  width: 24%;
+  color: #bfbfbf;
+  float: left;
+  font-size:16px;
+  padding-top: 16px;
+  margin-left: 30px;
+    }
+
+ .text-center a {
+  text-align: center;
+  color: #bfbfbf;
+}
+.selfy_box {
+    height: 100px;
+    float: right;
+    margin-top: -83px;
+}
+
+.my_footer_info {
+    float: left;
+    width: 80%;
+    text-align: center
+    
+}
+
+
+/*Start Icon Group*/
+.icon-column {
+  width: 40%;
+  float: left;
+  
+
+}
+
+.icon-container {
+width: 30%;
+margin: 0px auto;
+
+}
+
+.icon{
+ height: 25px;
+ width: 25;
+ margin: 0px;
+}
+
+.icon-center a {
+ font-size: 40px;
+ color: #ff9000;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+.clear_both:{
+  clear: both;
+}
+.clear_left {
+  clear: left;
+}
+
+.clear_right {
+  clear: right;
+}
+
+/*End Icon Group*/
+/* End Footer CSS*/
+
+

@@ -1,0 +1,115 @@
+/* Start of Menu page css*/
+.menu_container {
+    width: 80%;
+    height: 100%;
+    Margin-top: 2%;
+    margin-bottom:5%;
+    margin-left: 10%;
+    background-color: rgba(0,0,0,.7);
+    padding-bottom: 25px;
+}
+.menu_container:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+.menu_item_column{
+    width:70%;
+    height: 800px;
+    float: left;
+    color: #fff;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+
+.img_column {
+    float: right;
+    width:25%;
+    height: 100%;
+    margin-top: 25px;
+    padding-right: 125px;
+}
+
+.img_box{
+    height: 200px;
+    width: 200px;
+}
+
+.menu_header_row{
+    width:80%;
+    margin:22px 10%;
+    font-family: diplomata;
+    font-size: 35px;
+    text-align: center;
+    color: white;
+    padding-top: 15px;
+     
+}
+
+li {
+    display:inline;
+}
+
+.menu_links  a{ 
+    font-family: diplomata;
+    font-size:80%;
+    text-align: center;
+    color: #000;
+    text-decoration: none;
+    border: 3px outset #fff;
+    padding: 7px;
+    background-color: #ff9000;
+    margin-bottom: 0px;
+} 
+
+a:hover {
+  color: #fff !important;
+  background-color: #ff9000 ;
+}
+
+
+.menu_item_title {
+    margin-top: 20px;
+    color: #ff9000;
+}
+
+.menu_item_discription {
+    margin-top: 45px;
+    text-align: center;
+    color: #ff9000;
+    font-family: diplomata;
+    text-decoration: underline;
+}
+
+.menu_item_price {
+    float: right;
+  }
+.menu_side_price {
+    float:right;
+    padding-left: 60px;
+    color: #ff9000;
+    
+}
+/* End of Menu page css*/
+
+/* Start of top of page link*/
+
+.sticky_row {
+    width: 100%;    
+}
+
+.sticky_top {
+ color: #ff9000;
+ font-size: 80px;
+ position: fixed;
+ display: inline;
+ bottom: 100px;
+ right: 35px;
+ 
+}
+
+/* End of top of page link*/
+
