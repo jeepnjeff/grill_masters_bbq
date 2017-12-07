@@ -16,14 +16,14 @@
         text-align: center;
         font-family: diplomata;
         color: #fff;
-        padding-top: 15px;
-        padding-bottom: 25px;
+        padding-top: 35px;
+        padding-bottom: 0px;
     }
 
-    .matty_info_header{
-      text-align: center;
-      font-family: diplomata;
+    .matty_info_paragraph {
+      font-size: 22px;
     }
+
     .matty_info_column {
         width: 50%;
         float: left;
