@@ -36,9 +36,65 @@
       width: 500px;
       height: 500px;
       float: right;
-      margin-top: 9%;
+      margin-top: 10%;
       margin-right: 4%;
     }
+
+    .hr_title {
+      color: #ff9900;
+      height: 3px;
+      margin: 0px;
+    }
+
+        .video_section {
+        width: 80%;
+        background-color: rgba(0,0,0,.7);
+        margin-left: 10%;
+        }
+
+        .video_section:after {
+          content: "";
+          display: block;
+          clear: both;
+        }
+
+        .video_header {
+          text-align: center;
+          font-family: diplomata;
+          color: #fff;
+          padding-top: 35px;
+        }
+
+        .video_box1 {
+          width: 30%;
+          margin: 0 auto;
+          padding-top: 15px;
+        }
+
+        .video_box2 {
+          width: 33%;
+          float:left;
+          margin-top: 40px;
+          margin-left: 80px;
+          padding-bottom: 25px;
+        }
+
+        .video_box3 {
+          width: 33%;
+          float:right;
+          margin-top: 40px;
+          margin-right: 80px;
+          padding-bottom: 25px;
+
+        }
+
+
+
+        .video_title {
+          text-align: center;
+          font-family: diplomata;
+          color: #ff9900;
+        }
 
 
 
