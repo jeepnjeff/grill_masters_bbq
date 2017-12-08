@@ -72,13 +72,13 @@ border: 6px outset #000;
     color: #000 !important;
     border: 5px outset;
     margin: 20px;
+    margin-bottom: 60px;
 }
 
 .btn {
     background-color: #ff9000;
     font-family: Diplomata;
     margin-top: 10px;
-    margin-bottom: 35px;
 }
 /*End of Nav Buttons*/
 
@@ -152,11 +152,18 @@ border: 6px outset #000;
         margin: 0px 30px;
         clear: right;
     }
-    hr {
+    .hr_title {
         background:#ff9000;
-        height: 1px;
+        height: 3px;
+        margin-top: 60px;
     }
 
+    .social_title {
+      font-family: diplomata;
+      text-align: center;
+      color: #fff;
+      margin-top: 45px;
+    }
     /*End of Review Section CSS*/
 
 /* Start Footer CSS*/
